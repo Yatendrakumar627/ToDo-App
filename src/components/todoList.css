@@ -1,0 +1,36 @@
+/* TodoList.css */
+.todo-list-container {
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.todo-title {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.check-icon {
+  margin: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.btn-primary {
+  margin-right: 5px;
+}
+
+.btn-danger {
+  margin-left: 5px;
+}
